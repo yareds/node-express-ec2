@@ -1,4 +1,4 @@
-{
+[
     {
       "id": 1,
       "title": "JavaScript",
@@ -14,4 +14,4 @@
       "title": "Node JS",
       "instructor": "eyob"
     }
-}
+  ]
