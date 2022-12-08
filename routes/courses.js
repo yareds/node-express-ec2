@@ -1,9 +1,9 @@
 const userRoutes = (app, fs) => {
   // variables
-  const dataPath = "./data/users.json";
+  const dataPath = "./data/courses.json";
 
   // READ
-  app.get("/users", (req, res) => {
+  app.get("/courses", (req, res) => {
     fs.readFile(dataPath, "utf8", (err, data) => {
       if (err) {
         throw err;
