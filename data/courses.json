@@ -1,0 +1,17 @@
+{
+    {
+      "id": 1,
+      "title": "JavaScript",
+      "instructor": "kaleb"
+    },
+    {
+      "id": 2,
+      "title": "React JS",
+      "instructor": "fitsum"
+    },
+    {
+      "id": 3,
+      "title": "Node JS",
+      "instructor": "eyob"
+    }
+}
