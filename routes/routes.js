@@ -1,15 +1,11 @@
 const userRoutes = require("./courses");
 
 const appRouter = (app, fs) => {
-  // we've added in a default route here that handles empty routes
-  // at the base API url
   app.get("/", (req, res) => {
-    res.send("welcome to the development api-server");
+    res.send("welcome to ec2-server");
   });
 
-  // run our user route module here to complete the wire up
   userRoutes(app, fs);
 };
 
-// this line is unchanged
 module.exports = appRouter;
