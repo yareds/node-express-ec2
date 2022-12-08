@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const routes = require("./routes/routes.js")(app, fs);
 
 const server = app.listen(3001, () => {
-  console.log("listening on port 3001", server.address().port);
+  console.log("listening on port ", server.address().port);
 });
 
 //app.listen(3001, () => console.log("Api is running on port 3001"));
